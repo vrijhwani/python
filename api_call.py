@@ -5,7 +5,7 @@ import requests
 
 def api_call(admin_url, rev_id):
     admin_url = ''
-    url = "%s/api/policy/v3/casb/profiles/%s"(admin_url,rev_id)
+    url = ""()
     rsp = requests.get(url, headers = {"authorization":"", "content-type" : "application/json"})
 
 def main():
