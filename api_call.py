@@ -6,7 +6,7 @@ import requests
 def api_call(admin_url, rev_id):
     admin_url = ''
     url = "%s/api/policy/v3/casb/profiles/%s"(admin_url,rev_id)
-    rsp = requests.get(url, headers = {"authorization":"339931c17ea948fcb1d6812118b210c2", "content-type" : "application/json"})
+    rsp = requests.get(url, headers = {"authorization":"", "content-type" : "application/json"})
 
 def main():
     try:
